@@ -4,8 +4,8 @@ import java.util.Scanner;
 import entites.AdressePostale;
 
 public class Personne {
-	public String nom, prenom;
-	public AdressePostale adressePostale, modAdressePostale;
+	private String nom, prenom;
+	private AdressePostale adressePostale, modAdressePostale;
 	Scanner scanner = new Scanner(System.in);
 	String inserUtil;
 
