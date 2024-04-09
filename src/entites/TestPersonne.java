@@ -11,13 +11,13 @@ public class TestPersonne {
 		AdressePostale adrP1 = new AdressePostale("12", "Rue Hélène Boucher", "Angers", 49480);
 		Personne personne2 = new Personne("Luco", "Jonathan", adrP1);
 
-		personne1.AfficherNomPrenom();
-		personne1.ModifierNom();
-		personne1.ModifierAdressePostale();
-		
-		personne1.getAdresse();
-		personne1.getNom();
-		personne1.getPrenom();
+		/*
+		 * personne1.AfficherNomPrenom(); personne1.ModifierNom();
+		 * personne1.ModifierAdressePostale();
+		 * 
+		 * personne1.getAdresse(); personne1.getNom(); personne1.getPrenom();
+		 */
+
 		/*
 		 * Personne personne1 = new Personne(); Personne personne2 = new Personne();
 		 * 

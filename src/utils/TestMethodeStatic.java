@@ -6,8 +6,8 @@ public class TestMethodeStatic {
 		String chaine = "12";
 		int valeur = Integer.parseInt(chaine);
 		int a = 28, b = 63;
-		int max = Integer.max(a,b);
-		
+		int max = Integer.max(a, b);
+
 		System.out.println(max);
 
 	}
