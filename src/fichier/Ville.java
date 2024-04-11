@@ -6,24 +6,22 @@ public class Ville {
 	private String nomRegion;
 	private int populationTotal;
 
-	public Ville(String nom, String codeDepartement, String nomRegion, int populationTotal) {
+	public Ville(String nom, String codeDepartement, String nomRegion, String populationTotal) {
 		super();
 		this.nom = nom;
 		this.codeDepartement = codeDepartement;
 		this.nomRegion = nomRegion;
-		this.populationTotal = populationTotal;
+		this.populationTotal = Integer.parseInt(populationTotal.trim().replace(" ", ""));
 	}
 
 	public String getNom() {
 		return nom;
 	}
 
-	
-	
 	@Override
 	public String toString() {
-		return "Ville [nom=" + nom + ", codeDepartement=" + codeDepartement + ", nomRegion=" + nomRegion
-				+ ", populationTotal=" + populationTotal + "]";
+		return nom + ";" + codeDepartement + ";" + nomRegion
+				+ ";" + populationTotal;
 	}
 
 	public void setNom(String nom) {
@@ -50,8 +48,8 @@ public class Ville {
 		return populationTotal;
 	}
 
-	public void setPopulationTotal(int populationTotal) {
-		this.populationTotal = populationTotal;
+	public void setPopulationTotal(String populationTotal) {
+		this.populationTotal = Integer.parseInt(populationTotal.trim().replace(" ", ""));
 	}
 
 }

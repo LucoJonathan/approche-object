@@ -23,7 +23,7 @@ public class CreerFichier {
 		Path fichierDest = Paths.get(
 				"C:/Users/Jonathan/Documents/workspace-spring-tool-suite-4-4.22.0.RELEASE/approche-object/TP/recensement-100-lignes.csv");
 		Files.write(fichierDest, liste100, StandardCharsets.UTF_8);
-		
+
 	}
 
 }
