@@ -28,6 +28,8 @@ public class LectureFichier {
 			System.out.println(iterator.next());
 		}
 
+		
+		// Creation d'un dossier avec la poplation > 25k par villes
 		ArrayList<Ville> villes25k = villes;
 		iterator = villes25k.iterator();
 		while (iterator.hasNext()) {
@@ -48,5 +50,9 @@ public class LectureFichier {
 		}
 			
 		Files.write(fichierDest, liste25k, StandardCharsets.UTF_8);
+		
+		
+		
+		
 	}
 }
